@@ -1,0 +1,427 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+
+body{
+  background-color: rgb(0, 41, 0);
+}
+
+
+
+
+.contact-content{
+  display: flex;
+  justify-content: center;
+  /* margin-left: 200px; */
+  /* margin-right: 200px; */
+  /* background-color: transparent; */
+ 
+}
+
+.contact-us{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  /* height: 800px; */
+  justify-content: center;
+  /* align-items: center; */
+
+}
+
+.contact-details{
+  display: flex;
+  flex: 1.2;
+  flex-direction: column;
+  background-color: #ffae00;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 180px;
+  padding-bottom: 100px;
+  padding-top: 150px;
+  align-items: center;
+  box-shadow: inset 2px 1px 3px black;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-information{
+  display: flex;
+  flex-direction: column;
+  /* align-items: start; */
+}
+
+.contact-email{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.247);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: inset 2px 1px 3px black;
+}
+
+.contact-phone-number{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.247);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: inset 2px 1px 3px black;
+  vertical-align: center;
+}
+
+.contact-location{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.247);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: inset 2px 1px 3px black;
+}
+
+.email-icon{
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+
+.email{
+  flex: 1;
+  margin-top: 10px;
+  margin-left: 5px;
+  color: white;
+}
+
+.phone-number-icon{
+  display: flex;
+  width: 40px;
+  height: 40px;
+
+}
+
+.phone-number{
+  display: flex;
+  flex: 1;
+  margin-top: 10px;
+  margin-left: 5px;
+  color: white;
+}
+.location-icon{
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+
+.location{
+  flex: 1;
+  margin-top: 10px;
+  margin-left: 5px;
+  color: white;
+}
+
+.messanger{
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  margin-left: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 150px;
+  /* background-color: lightcoral; */
+
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-heading{
+  color: #ffae00;
+  /* text-align: center; */
+  font-size: 100px;
+}
+
+.contact-heading{
+  text-align: center;
+}
+
+.contact-details-wu{
+  text-align: center;
+  font-size: 17px;
+  width: 400px;
+}
+.form-write-up{
+  color: #fff;
+  margin-bottom: 5px;
+}
+form, label{
+  color: white;
+  margin-bottom: 5px;
+}
+input{
+  margin-bottom: 5px;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.253);
+  border-radius: 10px;
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid #ffae00;
+}
+
+input::placeholder{
+  color: white;
+
+}
+
+.contact-submit-button{
+  margin-top: 10px;
+  width: 50%;
+  color: black;
+  background-color: #ffae00;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+} 
+
+
+.contact-submit-button:hover{
+  background-color: transparent;
+  color: #ffae00;
+  border: 1px solid #ffae00;
+
+}
+
+.contact-submit-button:active{
+  background-color: #ffae00;
+  color: black;
+}
+
+.index-footer{
+  display: flex;
+  /* background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%); */
+  margin-top: 30px;
+  align-items: start;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+.footer-parent{
+  display: flex;
+  flex: 1;
+  margin-left: 100px;
+  margin-right: 100px;
+  flex-direction: rows;
+  justify-content: space-between;
+  
+}
+.footer-logos{
+  display: flex;
+  flex: row;
+}
+.footer-logo{
+ /* display: block; */
+ /* flex-direction: column; */
+ width: 300px;
+ height: 150px;
+ vertical-align: top;
+ border-right: 1px solid #00f7ff;
+}
+
+.footer-logo-image{
+  width: 200px;
+  height: 122px;
+  margin-bottom: 50px;
+  
+}
+
+.footer-logo-academy{
+  width: 300px;
+  height: 150px;
+  margin-left: 20px;
+}
+
+.footer-logo-academy-image{
+  width: 200px;
+  height: 122px;
+  margin-bottom: 50px;
+}
+
+.footer-elements{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* row-gap: 20px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+  /* align-items: center; */
+  
+
+}
+
+.footer-element-1{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  justify-content: start;
+  vertical-align: top;
+  /* margin-right: 100px; */
+  /* margin-left: 5px; */
+}
+
+
+.facebook-image-icon,
+.instragram-image-icon,
+.linkedin-image-icon,
+.x-image-icon,
+.youtube-image-icon{
+  width: 40px;
+  height:55px;
+  display: flex;
+  flex-direction: row;
+}
+.instragram-icon,
+.facebook-icon,
+.youtube-icon,
+.x-icon,
+.linkedin-icon{
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* padding-top: 130px; */
+  /* justify-content: start; */
+}
+
+
+.social-media-icons{
+  display: flex;
+  flex-direction: row;
+}
+.footer-element-2{
+  color: white;
+  /* display: flex; */
+  flex: 1;
+  margin-right: 100px;
+  line-height: 30px;
+  /* margin-right: 100px; */
+}
+.footer-element-2 a{
+  color: white;
+}
+.footer-element-2 a:hover{
+  color: #00f7ff;
+}
+
+
+
+.footer-element-3{
+  color: white;
+  /* display: ; */
+  flex: 1;
+  line-height: 30px;
+  margin-right: 100px;
+}
+
+.footer-element-3 a{
+  color: white;
+}
+.footer-element-3 a:hover{
+  color: #00f7ff;
+}
+.footer-element-4{
+  /* background-color: lightcoral; */
+  flex: 1;
+  /* margin-right: 100px; */
+  justify-content: end;
+  flex-direction: column;
+}
+
+.apply-now-text{
+  margin-bottom: 10px;
+  color: white;
+}
+
+.name-text{
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  font-family: Roboto;
+  
+}
+
+.email-text{
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.name-input{
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  background-color: white;
+  box-shadow: inset 1px 2px 3px black;
+  margin-bottom: 10px;
+
+}
+
+.name-input::placeholder{
+  font-family: Roboto;
+}
+
+.email-input{
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  background-color: white;
+  box-shadow: inset 1px 2px 3px black;
+  margin-bottom: 10px;
+
+}
+.email-input::placeholder{
+  font-family: Roboto;
+  padding-left: 10px;
+}
+
+.submit-button{
+  display: block;
+  width: 204px;
+  border: none;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-family: Roboto;
+  background-color:rgb(0, 247, 255);
+  font-weight: bold;
+  color: navy;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.5s, background-color 0.5s, border 0.5s;
+  
+}
+
+.submit-button:hover{
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}

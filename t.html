@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      background-color: transparent;
+    }
+
+    .our-pillars {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .parallax {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 90%;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk4XL7jU5gOS3o5Ilk3xI1hjX47A8WQpVT4w&usqp=CAU");
+      background-attachment: fixed;
+      background-position: center;
+      z-index: -1;
+    }
+
+    .mySwiper {
+      background-color: transparent !important;
+      /* Adjust the left property to center the Swiper container */
+    
+      /* Ensure the Swiper container is above the parallax background */
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100% !important;
+      width: 100% !important;
+      margin-right: 0 !important;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100% !important;
+      object-fit: cover;
+    }
+
+    swiper-container{
+      height: 100% !important;
+    }
+
+    .swiper-slide {
+      overflow: hidden;
+    }
+
+    .swiper-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+      height: 100% !important;
+
+    }
+
+    .div-tails h2 {
+      font-size: 50px !important;
+      color: goldenrod;
+      text-shadow: 1px 1px 1px black;
+      margin: 0;
+    }
+
+    .div-tails p {
+      color: whitesmoke;
+    }
+
+    .div-tails {
+      border-radius: 5px;
+      padding: 30px;
+    }
+    .new-pillars{
+      height:60vh;
+      display:flex;
+    }
+    .is-pillars{
+      width:50%;
+      overflow: hidden;
+    }
+    .pillar-text {
+      background-color:rgba(0, 0, 0, 0.9);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100% !important;
+    }
+    .pillar-text h1{
+      font-size: 70px;
+      text-align: center;
+      color:gold;
+      text-shadow:2px 2px 2px red;
+    }
+  </style>
+
+<body>
+  <!--<section class="our-pillars">
+    <div class="parallax"></div>
+    <div style="display:flex;">
+
+      <div class="swiper-holder" style="border:2px solid gold; width:50%; height:100%;">
+        <swiper-container class="mySwiper" effect="fade" centered-slides="true" autoplay-delay="3000"
+          autoplay-disable-on-interaction="true">
+          <swiper-slide>
+            <div class="swiper-div" style="background-image:url(./images/scholarships.gif); width:100%; height:50vh;">
+              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
+                <h2>Scholarships</h2>
+                <p>USA and Canada Opportunities will be open for education and football</p>
+              </div>
+            </div>
+
+          </swiper-slide>
+          <swiper-slide>
+            <div class="swiper-div"
+              style="background-image:url(./images/recreation-center.jpg); width:100%; height:50vh;">
+              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
+                <h2>Recreational</h2>
+                <p>Open Spaces for schools, corporates and friends to play football and hold ev</p>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="swiper-div"
+              style="background-image:url(./images/world-class-facilities.jpg); width:100%; height:50vh;">
+              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
+                <h2>World class Facilities</h2>
+                <p>Super artificial pitch, well maintained bleachers, large communal grounds</p>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="swiper-div"
+              style="background-image:url(./images/learning-and-development.jpg); width:100%; height:50vh;">
+              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
+                <h2>Learning and Development</h2>
+                <p>Acedmic and cultural workshops. Create commercial partnerships for revenue generation eg The Star
+                  Life Model</p>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="swiper-div" style="background-image:url(./images/rehab.jpg); width:100%; height:50vh;">
+              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
+                <h2>Rehab</h2>
+                <p>Physiotherapy, occupational therapy and other rehabilitative treatment for physical injury</p>
+              </div>
+            </div>
+          </swiper-slide>
+
+
+        </swiper-container>
+      </div>
+    </div>
+
+  </section>-->
+
+  <section class="new-pillars">
+    <div class="is-pillars">
+      <div class="swiper-holder" style="  height:100%;">
+        <swiper-container class="mySwiper" effect="fade"  autoplay-delay="3000"
+          autoplay-disable-on-interaction="true">
+          <swiper-slide>
+            <div class="swiper-div" style="background-image:url(./images/scholarships.gif); background-size:cover; width:100%;">
+              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
+                <h2>Scholarships</h2>
+                <p>USA and Canada Opportunities will be open for education and football</p>
+              </div>
+            </div>
+
+          </swiper-slide>
+          <swiper-slide>
+            <div class="swiper-div"
+              style="background-image:url(./images/recreation-center.jpg); width:100%;">
+              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
+                <h2>Recreational</h2>
+                <p>Open Spaces for schools, corporates and friends to play football and hold ev</p>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="swiper-div"
+              style="background-image:url(./images/world-class-facilities.jpg); width:100%;">
+              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
+                <h2>World class Facilities</h2>
+                <p>Super artificial pitch, well maintained bleachers, large communal grounds</p>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="swiper-div"
+              style="background-image:url(./images/learning-and-development.jpg); width:100%;">
+              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
+                <h2>Learning and Development</h2>
+                <p>Acedmic and cultural workshops. Create commercial partnerships for revenue generation eg The Star
+                  Life Model</p>
+              </div>
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="swiper-div" style="background-image:url(./images/rehab.jpg); width:100%;">
+              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
+                <h2>Rehab</h2>
+                <p>Physiotherapy, occupational therapy and other rehabilitative treatment for physical injury</p>
+              </div>
+            </div>
+          </swiper-slide>
+
+
+        </swiper-container>
+      </div>
+
+    </div>
+    <div class="is-pillars">
+      <div class="pillar-text">
+        <h1>YOUR SPORTS CAREER STARTS TODAY</h1>
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+</body>
+
+</html>

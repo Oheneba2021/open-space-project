@@ -1,0 +1,80 @@
+@media only screen and (max-width: 767px) {
+    /* Styles for devices with a maximum width of 767px */
+    .index-hero,
+    .after-hero-section,
+    .statements,
+    .who-we-are-part,
+    .is-action,
+    .flex,
+    .new-pillars,
+    .footer-elements,
+    .footer-logos{
+        display:block !important;
+    }
+    .statements,
+    .who-we-are-part,
+    .call-to-action,
+    .new-pillars{
+        flex-direction: column !important;
+        /* border: 15px solid red; */
+        height:100% !important;
+    }
+    .statement-1,
+    .statement-2,
+    .statement-3{
+        margin:15px;
+        width:90%;
+        border:5px solid whitesmoke;
+        padding:3%;
+    }
+
+    .call-to-action{
+        padding:40px;
+    }
+    .nav-bar{
+        margin:0;
+        display:none;
+    }
+    .hero-text,
+    .statements,
+    .who-we-are-part{
+        margin:0;
+        width:100%;
+        margin-left:0 !important;
+        margin-right:0 !important;
+    }
+    .welcome-text{
+        padding:15%;
+    }
+    .welcome-text span{
+        font-size:40px;
+    }
+
+
+    .welcome-write-up{
+        padding:5%;
+        width:100% !important;
+    }
+    
+    .who-image-1,
+    .is-pillars,
+    .footer-element-1,
+    .footer-element-2,
+    .footer-element-3,
+    .footer-element-4{
+        width:100% !important;
+    }
+    .action-item{
+        border-right:none !important;
+        border-bottom:5px solid black;
+    }
+    .footer-element-1,
+    .footer-element-2,
+    .footer-element-3,
+    .footer-element-4{
+        margin-block:50px;
+        margin-right:0;
+        padding:20px;
+    }
+    
+}
