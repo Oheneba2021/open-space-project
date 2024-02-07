@@ -7,7 +7,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Roboto;
+  font-family: organica;
+}
+@font-face {
+  font-family: 'Organica';
+  src: url('../Organica-Regular.woff') format('woff') ;
+  font-weight: normal;
+  font-style: normal;
+  overflow-x: hidden;
 }
 body{
   background-color: black;
@@ -33,7 +40,7 @@ body{
 p{
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'organica', sans-serif;
   font-size: 15px;
 }
 h1{
@@ -507,7 +514,7 @@ height: 300px;
   color: white;
   transition: all 0.3s;
   position: relative;
-  font-family: Roboto;
+  font-family: organica;
   cursor: pointer;
   font-size: 15px;
 }
@@ -784,7 +791,7 @@ height: 300px;
   color: white;
   padding-top: 10px;
   cursor: pointer;
-  font-family: Roboto;
+  font-family: organica;
   font-weight: bold;
   font-size: 12px;
   margin-bottom: 2px;
@@ -976,7 +983,7 @@ height: 300px;
   display: block;
   margin-bottom: 5px;
   color: white;
-  font-family: Roboto;
+  font-family: organica;
   
 }
 
@@ -984,7 +991,7 @@ height: 300px;
   display: block;
   margin-bottom: 5px;
   color: white;
-  font-family: Roboto;
+  font-family: organica;
   font-size: 15px;
 }
 
@@ -1000,7 +1007,7 @@ height: 300px;
 }
 
 .name-input::placeholder{
-  font-family: Roboto;
+  font-family: organica;
 }
 
 .email-input{
@@ -1014,7 +1021,7 @@ height: 300px;
 
 }
 .email-input::placeholder{
-  font-family: Roboto;
+  font-family: organica;
   padding-left: 10px;
 }
 
@@ -1025,10 +1032,10 @@ height: 300px;
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-  font-family: Roboto;
-  background-color:rgb(0, 247, 255);
+  font-family: organica;
+  background-color:#ffae00;
   font-weight: bold;
-  color: navy;
+  color: rgb(0, 40,0);
   font-size: 16px;
   cursor: pointer;
   transition: color 0.5s, background-color 0.5s, border 0.5s;
@@ -1219,9 +1226,110 @@ swiper-container{
   color:black;
 
 }
+.event-holder {
+  background-color:whitesmoke;
+  width: 80%;
+  height: 80vh;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  z-index: 1;
+  border:10px solid whitesmoke;
+  box-shadow: rgba(255, 174, 0, 0.16) 0px 3px 6px, rgba(255, 174, 0, 0.23) 0px 3px 6px;
+}
 
+.event-items {
+  width: 95%;
+  height: 500px;
+  position: absolute;
+  left: 2.5%;
 
+  background-color: white;
+}
 
+.event-item {
+  width: 50%;
+  height: 100%;
+}
+
+.event-content h2 {
+  font-family: ProtestRevolution;
+  font-size: 80px;
+  text-align: center;
+  color: #ffae00;
+  margin: 0;
+}
+
+.event-content p {
+  font-size: 30px;
+  text-align: center;
+  font-family: ProtestRiot;
+  margin: 0 auto;
+  color: whitesmoke;
+}
+
+.event-content .span-2 {
+  font-size: 70px;
+}
+
+.is-timer .time-left {
+  border: 5px solid whitesmoke;
+  padding: 20px;
+  border-radius: 50%;
+  font-size:30px;
+  font-family:ProtestRiot;
+  color:#ffae00;
+}
+
+.event-content {
+  background-color: rgb(0,40,0);
+  height: 500px;
+}
+
+.event-image {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnzZJo56JVzSe__0VZvkSoE1rHO0iBZ5B7uA&usqp=CAU');
+  background-size: cover;
+  height: 500px;
+}
+.is-timer p{
+  font-size:15px;
+  text-align:center;
+}
+@font-face {
+  font-family: 'ProtestRevolution';
+  src: url('../ProtestRevolution-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'ProtestRiot';
+  src: url('../ProtestRiot-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+.our-pillars {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk4XL7jU5gOS3o5Ilk3xI1hjX47A8WQpVT4w&usqp=CAU");
+  background-attachment: fixed;
+  background-position: center;
+  z-index: -1;
+}
 
 
 

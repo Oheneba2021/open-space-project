@@ -8,13 +8,15 @@
     .flex,
     .new-pillars,
     .footer-elements,
-    .footer-logos{
+    .footer-logos,
+    .centered{
         display:block !important;
     }
     .statements,
     .who-we-are-part,
     .call-to-action,
-    .new-pillars{
+    .new-pillars,
+    .our-pillars{
         flex-direction: column !important;
         /* border: 15px solid red; */
         height:100% !important;

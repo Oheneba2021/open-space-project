@@ -2,7 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Roboto;
+  font-family: organica;
+}
+@font-face {
+  font-family: 'Organica';
+  src: url('../Organica-Regular.woff') format('woff') ;
+  font-weight: normal;
+  font-style: normal;
+  overflow-x: hidden;
 }
 
 
@@ -361,7 +368,7 @@ input::placeholder{
   display: block;
   margin-bottom: 5px;
   color: white;
-  font-family: Roboto;
+  font-family: organica;
   
 }
 
@@ -369,7 +376,7 @@ input::placeholder{
   display: block;
   margin-bottom: 5px;
   color: white;
-  font-family: Roboto;
+  font-family: organica;
   font-size: 15px;
 }
 
@@ -385,7 +392,7 @@ input::placeholder{
 }
 
 .name-input::placeholder{
-  font-family: Roboto;
+  font-family: organica;
 }
 
 .email-input{
@@ -399,7 +406,7 @@ input::placeholder{
 
 }
 .email-input::placeholder{
-  font-family: Roboto;
+  font-family: organica;
   padding-left: 10px;
 }
 
@@ -410,7 +417,7 @@ input::placeholder{
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-  font-family: Roboto;
+  font-family: organica;
   background-color:rgb(0, 247, 255);
   font-weight: bold;
   color: navy;
