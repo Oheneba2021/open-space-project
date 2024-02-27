@@ -31,7 +31,7 @@ body{
   /* background-image: url('images/Hero-image.jpg'); */
   background-size: cover;
   display: flex;
-  color:#ffae00;
+  color:whitesmoke;
   flex-direction: column;
   justify-content: center;
   background-color: black;
@@ -138,14 +138,14 @@ h1{
   margin-top: 15px;
   border: none;
   border-radius: 7px;
-  background-color: navy;
-  color: white;
+  background-color: whitesmoke;
+  color: darkgreen;
   cursor: pointer;
   transition: background-color 0.5s, border 0.5s, color 0.5s;
 }
 
 .join-text{
-  color: white;
+  color: darkgreen;
 }
 
 .join-us-button:hover{
@@ -1192,8 +1192,8 @@ swiper-container{
 .pillar-text h1{
   font-size: 70px;
   text-align: center;
-  color:gold;
-  text-shadow:2px 2px 2px red;
+  color:whitesmoke;
+  text-shadow:2px 2px 2px darkgreen;
 }
 .call-to-action{
   background-color: whitesmoke;
