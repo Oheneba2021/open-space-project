@@ -95,7 +95,11 @@ body {
   font-size: 16px;
 }
 
-
+.centered{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
 
 
 
@@ -145,8 +149,8 @@ body {
   display: flex;
   justify-content: center;
   font-size: xx-large;
-  color: #ffae00;
-  text-shadow: 2px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px #181818;
 }
 
 .image-area {
@@ -176,7 +180,7 @@ body {
   /* border:2px solid red; */
   
 }
-
+/*
 .analytic-item-1{
   background-image:url('../images/premier-league.jpg');
 }
@@ -192,7 +196,14 @@ body {
 .analytic-item-4{
   background-image:url('../images/french-football.png');
 }
+*/
 
+.analytic-item-1 img,
+.analytic-item-2 img,
+.analytic-item-3 img,
+.analytic-item-4 img{
+	width:100%;
+}
 
 .analytic-item-1,
 .analytic-item-2,
@@ -224,12 +235,14 @@ body {
   padding-left: 10px;
   box-shadow: 0px 0px 3px black;
   padding-top: 10px;
+  text-align:center;
 }
 
 .our-mission-text,
 .our-vision-text {
   font-size: 30px;
   color: #ffae00;
+  text-align:center;
 
 }
 
@@ -242,6 +255,7 @@ body {
   border-radius: 10px;
   padding-left: 10px;
   padding-top: 10px;
+  text-align:center;
 }
 
 .is-mission,
