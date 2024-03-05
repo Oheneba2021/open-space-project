@@ -9,9 +9,17 @@
     .new-pillars,
     .footer-elements,
     .footer-logos,
-    .centered{
+    .centered,
+	.is-news{
         display:block !important;
     }
+	.news-item{
+		margin:0 !important;
+		margin-block:50px !important;
+	}
+	.news-container{
+		width:100% !important;
+	}
     .statements,
     .who-we-are-part,
     .call-to-action,
@@ -52,7 +60,6 @@
         font-size:40px;
     }
 
-
     .welcome-write-up{
         padding:5%;
         width:100% !important;
@@ -63,7 +70,8 @@
     .footer-element-1,
     .footer-element-2,
     .footer-element-3,
-    .footer-element-4{
+    .footer-element-4,
+	.news-item{
         width:100% !important;
     }
     .action-item{

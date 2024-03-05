@@ -1,40 +1,7 @@
 .header{
-  display: flex;
-  flex-direction: row;
-  margin-top: 10px;
-  height: 60px;
-  margin-left: 100px;
-  margin-right: 100px;
-  /* overflow: hidden; */
-  /* background-color: navy; */
-
-}
-.sticky{
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-
-.header-logo{
-  /* margin-left: 100px; */
-  display: flex;
-  width: 200px;
-}
-
-.ventures-logo{
-  width: 200px;
-  height: 100%;
-}
-
-
-.nav-bar {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: space-between;
-  color:whitesmoke;
-  
+	display:flex;
+	justify-content:space-around;
+	margin-block:15px;
 }
 
 .dropdown{
@@ -56,10 +23,6 @@
   cursor: pointer;
 }
 
-.about-navbar a:hover, .dropdown:hover .dropbtn{
-  color: navy;
-  /* background-color: red; */
-}
 
 .dropdown-content{
   display: none;
