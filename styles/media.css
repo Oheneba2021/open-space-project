@@ -1,5 +1,8 @@
 @media only screen and (max-width: 767px) {
     /* Styles for devices with a maximum width of 767px */
+	.our-mission-vision,
+	.analytics-area,
+	.about-us-content,
     .index-hero,
     .after-hero-section,
     .statements,
@@ -54,7 +57,7 @@
         margin-right:0 !important;
     }
     .welcome-text{
-        padding:15%;
+        padding:6%;
     }
     .welcome-text span{
         font-size:40px;
@@ -65,7 +68,8 @@
         width:100% !important;
     }
     
-    .who-image-1,
+    .side-area,
+	.who-image-1,
     .is-pillars,
     .footer-element-1,
     .footer-element-2,
@@ -101,5 +105,46 @@
 	
 	.welcome-text .sp-3 {
 		
+	}
+	
+	.news-item{
+		height:100% !important;
+	}
+	.about-us-content{
+		margin-bottom:50px;
+	}
+	.image-area{
+		height:30vh;
+		width:95%;
+		flex:auto;
+		margin-top:20px;
+	}
+	
+	.analytics-area{
+		width:95%;
+		margin-top:20px;
+	}
+	
+	.analytics{
+		display:flex !important;
+		justify-content:space-around;
+		width:100%;
+	}
+	
+	.our-mission-vision{
+		height:100%;
+		margin-right:0;
+		margin-left:0;
+		
+	}
+	
+	.about-mission-statement{
+		margin-right:0;
+		padding:10px;
+		margin-bottom:20px;
+	}
+	.about-vision-statement{
+		margin-left:0;
+		padding:10px;
 	}
 }
