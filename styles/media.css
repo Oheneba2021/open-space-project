@@ -86,5 +86,20 @@
         margin-right:0;
         padding:20px;
     }
+	
+	.welcome-text .sp-1 {
+		color:green !important;
+	}
     
+	.welcome-text .sp-3 {
+		color:red !important;
+	}
+	
+	.welcome-text .sp-3 {
+		
+	}
+	
+	.welcome-text .sp-3 {
+		
+	}
 }
