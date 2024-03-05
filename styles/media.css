@@ -140,11 +140,23 @@
 	
 	.about-mission-statement{
 		margin-right:0;
+		width:95%;
 		padding:10px;
 		margin-bottom:20px;
 	}
 	.about-vision-statement{
 		margin-left:0;
 		padding:10px;
+		width:95%;
+	}
+	
+	.div-tails h2{
+		font-size:20px !important;
+		width:100% !important;
+	}
+	
+	.pillar-text h1{
+		font-size:50px;
+		padding:20px;
 	}
 }
