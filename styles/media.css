@@ -1,5 +1,6 @@
 @media only screen and (max-width: 767px) {
     /* Styles for devices with a maximum width of 767px */
+	.contact-us,
 	.our-mission-vision,
 	.analytics-area,
 	.about-us-content,
@@ -67,7 +68,7 @@
         padding:5%;
         width:100% !important;
     }
-    
+    .ex-service-item,
     .side-area,
 	.who-image-1,
     .is-pillars,
@@ -158,5 +159,10 @@
 	.pillar-text h1{
 		font-size:50px;
 		padding:20px;
+	}
+ 
+	.contact-details{
+		margin-right:0;
+		margin-left:0 !important;
 	}
 }
