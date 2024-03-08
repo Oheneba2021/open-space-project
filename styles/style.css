@@ -21,7 +21,7 @@ p{
   overflow-x: hidden;
 }
 body{
-  background-color: #181818;
+  background-color: #18181d;
 }
 
 
@@ -1186,7 +1186,7 @@ swiper-container{
   overflow: hidden;
 }
 .pillar-text {
-  background-color:rgba(24, 24, 24, 0.9);
+  background-color:rgba(24, 24, 29, 0.9);
   display: flex;
   justify-content: center;
   align-items: center;

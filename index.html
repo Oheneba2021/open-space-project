@@ -372,7 +372,7 @@
 		.ex-service-item div{
 			width:100%;
 			height:100%;
-			background-color:rgba(24,24,24, 0.5);
+			background-color:rgba(24,24,29, 0.5);
 			border-radius:20px;
 		}
 		
@@ -383,7 +383,7 @@
 	</style>
 	<section class="ex-service">
 		<div class="is-ex-service">
-			<h1 style="text-align:center;">The Open Space Project</h1>
+			<!--<h1 style="text-align:center;">The Open Space Project</h1>-->
 			
 			<div class="centered">
 				<div class="ex-service-item evter" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
@@ -436,7 +436,7 @@
             <swiper-slide>
               <div class="swiper-div"
                 style="background-image:url('https://images.sportsbrief.com/images/1120/851e71e843865f20.jpeg?v=1'); background-size:cover; width:100%;">
-                <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
+                <div class="div-tails" style="background-color: rgba(24, 24, 29, 0.5); width:50%;">
                   <h2>Mohammed Kudus</h2>
                   <p>--West Ham United--</p>
                 </div>
@@ -447,7 +447,7 @@
             </swiper-slide>
             <swiper-slide>
               <div class="swiper-div" style="background-image:url('https://prod-media.beinsports.com/image/Salisu.jpg'); width:100%;">
-                <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
+                <div class="div-tails" style="background-color: rgba(24, 24, 29, 0.5); width:50%;">
                   <h2>Mohammed Salisu</h2>
                   <p>--AS Monaco--</p>
                 </div>
@@ -455,7 +455,7 @@
             </swiper-slide>
             <swiper-slide>
               <div class="swiper-div" style="background-image:url('https://imgresizer.eurosport.com/unsafe/1200x0/filters:format(jpeg)/origin-imgresizer.eurosport.com/2019/04/09/2561760-53133910-2560-1440.jpg'); width:100%;">
-                <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
+                <div class="div-tails" style="background-color: rgba(24, 24, 29, 0.5); width:50%;">
                   <h2>Hudson Odoi</h2>
                   <p>--Chelsea FC--</p>
                 </div>
@@ -471,7 +471,7 @@
             </swiper-slide>
             <swiper-slide>
               <div class="swiper-div" style="background-image:url('https://image.hurimg.com/i/hurriyet/75/0x0/65aef1dfc4760e8fd5ecbc1d.jpg'); width:100%;">
-                <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
+                <div class="div-tails" style="background-color: rgba(24, 24, 29, 0.5); width:50%;">
                   <h2>Alexander Djiku</h2>
                   <p>--Fenerbahçe SK--</p>
                 </div>
@@ -495,59 +495,131 @@
       </div>
 
     </section>
+	
+	<style>
+		.event-holder{
+			width:100%;
+		}
+		
+		.event-item{
+			height:500px;
+			width:50%;
+		}
+		.is-event-item{
+			box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+		}
+		.events{
+			width:80%;
+			margin-bottom:20px;
+		}
+		
+		.event-content h2 {
+		  font-family: ProtestRevolution;
+		  font-size: 50px;
+		  text-align: center;
+		  color: #ffae00;
+		  margin: 0;
+		}
+
+		.event-content p {
+		  font-size: 30px;
+		  text-align: center;
+		  font-family: ProtestRiot;
+		  margin: 0 auto;
+		  color: whitesmoke;
+		}
+
+		.event-content .span-2 {
+		  font-size: 70px;
+		}
+
+		.is-timer .time-left {
+		  border: 5px solid whitesmoke;
+		  padding: 20px;
+		  border-radius: 50%;
+		  font-size:30px;
+		  font-family:ProtestRiot;
+		  color:#ffae00;
+		}
+
+		.event-content {
+		  background-color: rgb(24,24,29);
+		}
+		
+		.event-image{
+			background-image:url('./images/football.png');
+			background-size:cover;
+			background-position:left;
+		}
+		
+		.is-event-image{
+			width:100%;
+			height:100%;
+			background-color:rgba(24, 24, 24, 0.5);
+		}
+		
+		.is-timer{
+			display:flex;
+			margin:0 auto;
+			padding:10%;
+		}
+	</style>
+	
 
     <section class="our-pillars">
       <div class=""></div>
 		<div style="display:flex;">
-		<div class="event-holder " >
-			<div class="centered" >
-				<div class="events">
-					<h1 style="color:#002800;text-align:center; font-size:50px; margin-block:20px;">
-						UPCOMING EVENT(S)
-					</h1>
-					<div class="event-items ">
-						<div class="is-event-item flex">
-							<div class="event-item event-content centered">
-								<div>
-									<p class="span-1">JUSTIFY YOUR INCLUSION</p>
-									<h2>ShowCase Tournament</h2>
-									<p class="span-2">2024</p>
-    
-									<div class="timer centered">
-										<div class="is-timer flex">
-											<div>
-												<div id="days" class="time-left">00</div><br>
-												<p>day(s)</p>
-											</div>
-											<div class="centered"><p>:</p></div>
-											<div>
-												<div id="hours" class="time-left">00</div><br>
-												<p>hr(s)</p>
-											</div>
-											<div class="centered"><p>:</p></div>
-											<div>
-												<div id="minutes" class="time-left">00</div><br>
-												<p>min(s)</p>
-											</div>
-											<div class="centered"><p>:</p></div>
-											<div>
-												<div id="seconds" class="time-left">00</div><br>
-												<p>sec(s)</p>
+			<div class="event-holder " >
+				<div class="centered" >
+					<div class="events">
+						<h1 style="color:#002800;text-align:center; font-size:50px; margin-block:20px;">
+							UPCOMING EVENT(S)
+						</h1>
+						<div class="event-items ">
+							<div class="is-event-item flex">
+								<div class="event-item event-content centered">
+									<div>
+										<p class="span-1">JUSTIFY YOUR INCLUSION</p>
+										<h2>ShowCase Tournament</h2>
+										<p class="span-2">2024</p>
+		
+										<div class="timer centered">
+											<div class="is-timer">
+												<div>
+													<div id="days" class="time-left">00</div><br>
+													<p>DAY(S)</p>
+												</div>
+												<div class="centered"><p>:</p></div>
+												<div>
+													<div id="hours" class="time-left">00</div><br>
+													<p>HR(S)</p>
+												</div>
+												<div class="centered"><p>:</p></div>
+												<div>
+													<div id="minutes" class="time-left">00</div><br>
+													<p>MIN(S)</p>
+												</div>
+												<div class="centered"><p>:</p></div>
+												<div>
+													<div id="seconds" class="time-left">00</div><br>
+													<p>SEC(S)</p>
+												</div>
 											</div>
 										</div>
 									</div>
+		
 								</div>
-    
-							</div>
-							<div class="event-item event-image">
-    
+								<div class="event-item event-image">
+									<div class="is-event-image">
+										
+									</div>	
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+			  
 			</div>
-          
-        </div>
 		</div>
   
     </section>
@@ -560,7 +632,7 @@
 		.news-container{
 			width:90%;
 			height:100%;
-			background-color:#181818;
+			background-color:#18181d;
 			margin-block:50px;
 		}
 		.is-news{
@@ -573,6 +645,7 @@
 			margin:2%;
 			background-color:whitesmoke;
 			border-radius:5px;
+			box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 		}
 		.news-image{
 			width:100%;
@@ -675,7 +748,7 @@
 		<div class="is-video centered">
 			<div style="width:100%;">
 				<div style="">
-					<h1 style="text-align:center; color:rgb(245,245,245);padding:15px; margin-bottom:15px; background-color:rgb(24,24,24);">Open Space Spotlight:Talents in Kumasi</h1>
+					<h1 style="text-align:center; color:rgb(245,245,245);padding:15px; margin-bottom:15px; background-color:rgb(24,24,29);">Open Space Spotlight:Talents in Kumasi</h1>
 				</div>
 				<div style="position:relative; width:100%; height:0px; padding-bottom:56.667%">
 					<iframe allow="fullscreen;autoplay" allowfullscreen height="100%" src="https://streamable.com/e/tkkzwb?autoplay=1&muted=1" width="100%" style="border:none; width:100%; 	height:90%; position:absolute; left:0px; top:0px; overflow:hidden;"></iframe>
