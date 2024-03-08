@@ -92,12 +92,13 @@
         padding:20px;
     }
 	
-	.welcome-text .sp-1 {
-		color:green !important;
+	.welcome-text .sp-1,
+	.welcome-text .sp-2 {
+		color:goldenrod !important;
 	}
     
 	.welcome-text .sp-3 {
-		color:red !important;
+		color:goldenrod !important;
 	}
 	
 	.welcome-text .sp-3 {

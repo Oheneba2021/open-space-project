@@ -68,9 +68,10 @@ h1{
 
 }
 .welcome-text .sp-1{
-  color:rgb(245,245,245);
+  color:goldenrod;
   text-shadow:1px 1px 1px  black;
 }
+.welcome-text .sp-2,
 .welcome-text .sp-3{
   color:goldenrod;
   text-shadow:1px 1px 1px  black;
