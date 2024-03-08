@@ -68,6 +68,7 @@ h1{
 
 }
 .welcome-text .sp-1{
+	display:none;
   color:goldenrod;
   text-shadow:1px 1px 1px  black;
 }
