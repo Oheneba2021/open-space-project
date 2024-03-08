@@ -1,357 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Document</title>
+		</head>
+		<style>
+			body{
+				margin:0;
+			}
+			.hero-section{
+				width:100%;
+				height:100vh;
+				border:5px solid black;
+				margin:0;
+			}
+			.header{
+				display:flex;
+				justify-content:space-between;
+			}
+			
+			.nav-bar{
+				display:flex;
+			}
+			
+			.hero-part{
+				width:100%;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+			}
+			
+			.index-hero{
+				width:100%;
+			}
+			
+			.parallax-1 {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-image: url("./images/hero-images/hero-2.png");
+				background-size: cover;
+				background-attachment: fixed;
+				background-position: center;
+				z-index: -1;
+				}
+				
+				.centered{
+					display:flex;
+					justify-content:center;
+					align-items:center;
+				}
+				.hero-text{
+					width:100%;
+					height:80vh;
+					border:2px solid white;
+					margin:auto 0;
+				}
+				
+				.welcome-text{
+					font-size: 70px;
+					text-align: center;
+					font-weight: bold;
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+				}
+				.welcome-text .sp-1,
+				.welcome-text .sp-2{
+					color:rgb(245,245,245);
+					text-shadow:1px 1px 1px  black;
+					}
+					.welcome-text .sp-3{
+					color:goldenrod;
+					text-shadow:1px 1px 1px  black;
+				}
 
+				.welcome-write-up{
+					color:goldenrod;
+					text-shadow:2px 2px 2px #18181d;
+					text-align: center;
+					font-size: 20px;
+					/*width: 1000px;
+					margin-right: 500px;
+					margin-left: 500px; */
+				}
+		</style>
+		
 
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-      background-color: transparent;
-    }
+		<body>
+			<section class="hero-section">
+				<div class="parallax-1">
+				<div class="container-1">
+					<div class="hero-part">
+						<div class="index-hero" >
+							<div class="header" id="myHeader">
+								<div class="header-logo">
+									<a href="index.html"><img class="ventures-logo" src="images/header-logo-image.png" alt=""></a>
+								</div>
+								<div class="nav-bar">
+									<div class="dropdown">
+										<button class="dropbtn">
+											<a href="index.html">Home</a><i class="fa fa-caret-down"></i>
+										</button>
+									</div>
+									<div class="dropdown">
+										<button class="dropbtn">
+											<a href="">Academy</a><i class="fa fa-caret-down"></i>
+										</button>
+										<div class="dropdown-content">
+											<a href="#">Our Players</a>
+											<a href="">Facilities</a>
+											<a href="">Gallery</a>
+										</div>
+									</div>
+									<div class="dropdown">
+										<button class="dropbtn">
+											<a href="about.html" target="_blank">About Us</a> <i class="fa fa-caret-down"></i>
+										</button>
+										<div class="dropdown-content">
+											<a href="about.html">Who We Are</a>
+											<a href="about.html">Our Story</a>
+										</div>
+									</div>
+									<div class="dropdown">
+										<button class="dropbtn">
+											<a href="contact.html">Contact Us </a><i class="fa fa-caret-down"></i>
+										</button>
+										<div class="dropdown-content">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="hero-text centered">
+								<div>
+									<p style="font-size:20px;">--WELCOME TO--</p>
+										<p class="welcome-text fadeIn" data-aos="zoom-in-left">
+										<span class="sp-1">OPEN </span>
+										<span class="sp-2">SPACE</span>
+										<span class="sp-3">ACADEMY</span>
+									</p>
+									<p class="welcome-write-up">
+										WHERE PASSION MEETS PRECISION
+									</p>
+									<button class="join-us-button"><a href="" class="join-text">JOIN US</a></button>
+								</div>
+								
+							</div>
+					</div>
+				</div>
+			</section>
+			<script src="script.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 
-    .centered {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+		</body>
 
-    @font-face {
-      font-family: 'ProtestRevolution';
-      src: url('ProtestRevolution-Regular.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-      overflow-x: hidden;
-    }
-
-    @font-face {
-      font-family: 'ProtestRiot';
-      src: url('ProtestRiot-Regular.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-      overflow-x: hidden;
-    }
-
-    .our-pillars {
-      position: relative;
-      width: 100%;
-      height: 100vh;
-      overflow: hidden;
-    }
-
-    .flex {
-      display: flex;
-    }
-
-    .parallax {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 90%;
-      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk4XL7jU5gOS3o5Ilk3xI1hjX47A8WQpVT4w&usqp=CAU");
-      background-attachment: fixed;
-      background-position: center;
-      z-index: -1;
-    }
-
-    .mySwiper {
-      background-color: transparent !important;
-      /* Adjust the left property to center the Swiper container */
-
-      /* Ensure the Swiper container is above the parallax background */
-    }
-
-    swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100% !important;
-      width: 100% !important;
-      margin-right: 0 !important;
-    }
-
-    swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100% !important;
-      object-fit: cover;
-    }
-
-    swiper-container {
-      height: 100% !important;
-    }
-
-    .swiper-slide {
-      overflow: hidden;
-    }
-
-    .swiper-div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-size: cover;
-      height: 100% !important;
-
-    }
-
-    .div-tails h2 {
-      font-size: 50px !important;
-      color: goldenrod;
-      text-shadow: 1px 1px 1px black;
-      margin: 0;
-    }
-
-    .div-tails p {
-      color: whitesmoke;
-    }
-
-    .div-tails {
-      border-radius: 5px;
-      padding: 30px;
-    }
-
-    .new-pillars {
-      height: 60vh;
-      display: flex;
-    }
-
-    .is-pillars {
-      width: 50%;
-      overflow: hidden;
-    }
-
-    .pillar-text {
-      background-color: rgba(0, 0, 0, 0.9);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100% !important;
-    }
-
-    .pillar-text h1 {
-      font-size: 70px;
-      text-align: center;
-      color: gold;
-      text-shadow: 2px 2px 2px red;
-    }
-
-    .event-holder {
-      background-color: rgba(0, 41, 0, 0.5);
-      width: 80%;
-      height: 80vh;
-      position: absolute;
-      top: 5%;
-      left: 10%;
-      right: 10%;
-      bottom: 10%;
-      z-index: 1;
-      border:10px solid whitesmoke;
-      box-shadow: rgba(255, 174, 0, 0.16) 0px 3px 6px, rgba(255, 174, 0, 0.23) 0px 3px 6px;
-    }
-
-    .event-items {
-      width: 95%;
-      height: 500px;
-      position: absolute;
-      left: 2.5%;
-
-      background-color: white;
-    }
-
-    .event-item {
-      width: 50%;
-      height: 100%;
-    }
-
-    .event-content h2 {
-      font-family: ProtestRevolution;
-      font-size: 80px;
-      text-align: center;
-      color:#ffae00;
-      margin: 0;
-    }
-
-    .event-content p {
-      font-size: 30px;
-      text-align: center;
-      font-family: ProtestRiot;
-      margin: 0 auto;
-      color: whitesmoke;
-    }
-
-    .event-content .span-2 {
-      font-size: 70px;
-    }
-
-    .is-timer .time-left {
-      border: 5px solid whitesmoke;
-      padding: 20px;
-      border-radius: 50%;
-      font-size:30px;
-      font-family:ProtestRiot;
-      color:#ffae00;
-    }
-
-    .event-content {
-      background-color: rgb(0,40,0);
-      height: 500px;
-    }
-
-    .event-image {
-      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnzZJo56JVzSe__0VZvkSoE1rHO0iBZ5B7uA&usqp=CAU');
-      background-size: cover;
-      height: 500px;
-    }
-    .is-timer p{
-      font-size:15px;
-      text-align:center;
-    }
-	.is-nav{
-		display:flex;
-		justify-content:space-around;
-	}
-  </style>
-
-<body>
-	<section>
-		<div class="is-nav">
-			<div>
-				<img src="./images/header-logo-image.png" alt="">
-			</div>
-			<div>
-				<nav>
-					<a href="index.html">Home</a>
-					<a href="about.html">About Us</a>
-					<a href="contact.html">Contact Us</a>
-				</nav>	
-			</div>
-		</div>
-	</section>
-  <section class="our-pillars">
-    <div class="parallax"></div>
-    <div style="display:flex;">
-
-      <div class="event-holder " >
-        <div class="events">
-          <h1 style="color:#fff;text-align:center; font-size:50px; display:block;">UPCOMING EVENTS</h1>
-          <div class="event-items ">
-            <div class="is-event-item flex">
-              <div class="event-item event-content centered">
-                <div>
-                  <p class="span-1">JUSTIFY YOUR INCLUSION</p>
-                  <h2>ShowCase Tournament</h2>
-                  <p class="span-2">2024</p>
-
-                  <div class="timer centered">
-                    <div class="is-timer flex">
-                      <div>
-                        <div id="days" class="time-left">00</div><br>
-                        <p>day(s)</p>
-                      </div>
-                      <div class="centered"><p>:</p></div>
-                      <div>
-                        <div id="hours" class="time-left">00</div><br>
-                        <p>hr(s)</p>
-                      </div>
-                      <div class="centered"><p>:</p></div>
-                      <div>
-                        <div id="minutes" class="time-left">00</div><br>
-                        <p>min(s)</p>
-                      </div>
-                      <div class="centered"><p>:</p></div>
-                      <div>
-                        <div id="seconds" class="time-left">00</div><br>
-                        <p>sec(s)</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-              <div class="event-item event-image">
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-  </section>
-
-  <section class="new-pillars">
-    <div class="is-pillars">
-      <div class="swiper-holder" style="  height:100%;">
-        <swiper-container class="mySwiper" effect="fade" autoplay-delay="3000" autoplay-disable-on-interaction="true">
-          <swiper-slide>
-            <div class="swiper-div"
-              style="background-image:url(./images/scholarships.gif); background-size:cover; width:100%;">
-              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
-                <h2>Scholarships</h2>
-                <p>USA and Canada Opportunities will be open for education and football</p>
-              </div>
-            </div>
-
-          </swiper-slide>
-          <swiper-slide>
-            <div class="swiper-div" style="background-image:url(./images/recreation-center.jpg); width:100%;">
-              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
-                <h2>Recreational</h2>
-                <p>Open Spaces for schools, corporates and friends to play football and hold ev</p>
-              </div>
-            </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="swiper-div" style="background-image:url(./images/world-class-facilities.jpg); width:100%;">
-              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
-                <h2>World class Facilities</h2>
-                <p>Super artificial pitch, well maintained bleachers, large communal grounds</p>
-              </div>
-            </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="swiper-div" style="background-image:url(./images/learning-and-development.jpg); width:100%;">
-              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
-                <h2>Learning and Development</h2>
-                <p>Acedmic and cultural workshops. Create commercial partnerships for revenue generation eg The Star
-                  Life Model</p>
-              </div>
-            </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="swiper-div" style="background-image:url(./images/rehab.jpg); width:100%;">
-              <div class="div-tails" style="background-color: rgba(29, 28, 28, 0.5); width:50%;">
-                <h2>Rehab</h2>
-                <p>Physiotherapy, occupational therapy and other rehabilitative treatment for physical injury</p>
-              </div>
-            </div>
-          </swiper-slide>
-
-
-        </swiper-container>
-      </div>
-
-    </div>
-    <div class="is-pillars">
-      <div class="pillar-text">
-        <h1>YOUR SPORTS CAREER STARTS TODAY</h1>
-      </div>
-
-    </div>
-
-  </section>
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-
-</body>
-
-</html>
+	</html>
