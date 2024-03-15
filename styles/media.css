@@ -179,4 +179,17 @@
 	.event-image{
 		height:500px !important;
 	}
+	
+	.parallax-2{
+		display:none !important; 
+	}
+	
+	.is-pillar-item{
+		width:90% !important;
+		background-image:url('../images/after-hero.png');
+		background-size:contain;
+		display:flex !important;
+		justify-content:center ;
+		align-items:center;
+	}
 }
