@@ -9,6 +9,14 @@
   overflow: hidden;
 }
 
+.header-logo{
+	width:50px;
+	overflow:hidden;
+}
+
+.header-logo img{
+	width:100%;
+}
 
 
 .dropdown .dropbtn{
