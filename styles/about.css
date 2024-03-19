@@ -293,28 +293,13 @@ body {
 
 .footer-logo {
   width: 300px;
-  height: 150px;
+
   vertical-align: top;
-  border-right: 1px solid #00f7ff;
-}
-
-.footer-logo-image {
-  width: 200px;
-  height: 122px;
-  margin-bottom: 50px;
 
 }
 
-.footer-logo-academy {
-  width: 300px;
-  height: 150px;
-  margin-left: 20px;
-}
-
-.footer-logo-academy-image {
-  width: 200px;
-  height: 122px;
-  margin-bottom: 50px;
+.footer-logo img{
+	width:100%;
 }
 
 .footer-elements {
