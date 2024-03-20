@@ -68,7 +68,7 @@
         padding:5%;
         width:100% !important;
     }
-    .ex-service-item,
+  
     .side-area,
 	.who-image-1,
     .is-pillars,
@@ -191,5 +191,15 @@
 		display:flex !important;
 		justify-content:center ;
 		align-items:center;
+	}
+	
+	.ex-service-item div{
+		display:flex !important;
+		justify-content:center;
+		align-items:center;
+	}
+	
+	.ex-service-item {
+		width:95% !important;
 	}
 }
